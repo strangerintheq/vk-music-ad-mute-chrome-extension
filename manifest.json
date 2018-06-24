@@ -5,13 +5,15 @@
 
   "permissions": ["tabs", "*://vk.com/*"],
 
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+  "content_scripts": [
+    {
+      "matches": ["*://vk.com/*"],
+      "js": ["inject.js"],
+      "all_frames": true
+    }
+  ],
 
-  "content_scripts": [{
-    "matches": ["*://vk.com/*"],
-    "js": ["mute.js"]
-  }]
+  "web_accessible_resources": [
+    "mute.js"
+  ]
 }
