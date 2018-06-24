@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "version": "0.1",
+  "name": "VK audio ad mute",
+
+  "permissions": ["tabs", "*://vk.com/*"],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [{
+    "matches": ["*://vk.com/*"],
+    "js": ["mute.js"]
+  }]
+}
