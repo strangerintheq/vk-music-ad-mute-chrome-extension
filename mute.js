@@ -17,6 +17,7 @@
             return;
         clearInterval(initTaskId);
         setInterval(checkAd, 100);
+        console.log('vk-audio-ad-mute extension activated');
     }
 
     function checkAd() {
