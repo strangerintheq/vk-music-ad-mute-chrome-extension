@@ -1,8 +1,8 @@
 # vk-music-ad-mute-chrome-extension
 
 
-Эта штуковина убавляет громкость аудио рекламы в контакет до 0,  и возвращает в прежнее положение, когда включается музыка.
-
+Эта штуковина убавляет громкость аудио рекламы в контакте до 0,  и возвращает в прежнее положение, когда включается музыка.
+актуально на 02.10.2018
 
 
 1. Download zip from here https://github.com/strangerintheq/vk-music-ad-mute-chrome-extension/archive/master.zip 
